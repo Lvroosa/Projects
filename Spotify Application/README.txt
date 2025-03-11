@@ -1,4 +1,4 @@
-#Spotify Application
+# Spotify Application
 
 Unlike the News Sentiment application, my Spotify application does not contain a shareable link yet, but I posted the code and a screen recording showing the application in action.
 
