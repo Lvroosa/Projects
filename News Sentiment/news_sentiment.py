@@ -1,5 +1,5 @@
 # Tweaked the Gemini prompt to get more accurate results.
-#Also, for some reason, gemini-1.0-pro is no longer available. Changed to gemini-1.5-pro-latest
+#Also, for some reason, gemini-1.0-pro is no longer available. Changed to gemini-2.0-flash
 
 
 import os
