@@ -87,7 +87,7 @@ if st.button('Search'):
 
 
 
-            gemini_response = client.models.generate_content(model="gemini-1.5-pro-latest", contents=[sentiment_prompt])
+            gemini_response = client.models.generate_content(model="gemini-2.0-flash", contents=[sentiment_prompt])
 
 
 
