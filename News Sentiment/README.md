@@ -6,4 +6,7 @@ For my internship with Tulane Enterprise Risk Services, one of my goals was to t
 
 I will continue to update the application, adding more features and improving the accuracy of the sentiment score. Please let me know if you have any suggestions in the meantime!
 
-If you would like to interact with the application, you can do so right here: https://news-sentiment.streamlit.app/
+Update: The application is currently down. I will update with a new link for users to interact with soon! For now, you can find a video below demonstrating the app in action.
+
+
+https://github.com/user-attachments/assets/fa9767f8-ba6c-4d92-8df4-44fadc2001aa
