@@ -9,4 +9,5 @@ I will continue to update the application, adding more features and improving th
 Update: The application is currently down. I will update with a new link for users to interact with soon! For now, you can find a video below demonstrating the app in action.
 
 
-https://github.com/user-attachments/assets/6bb4b52b-ef7f-4408-9513-537e0daa9061
+https://github.com/user-attachments/assets/0b105433-b15c-439c-b6e5-063108c9d888
+
