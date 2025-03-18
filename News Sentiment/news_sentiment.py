@@ -12,9 +12,9 @@ import datetime
 
 
 
-
 # Store API keys securely (Replace with your actual API keys)
-
+NEWS_API_KEY = "9d40fd915f184e479525441c1d29f4b1"
+GEMINI_API_KEY = "AIzaSyAKq9tcihQTvaO-qPZ2wVy8F28aci1qZO8"
 
 
 
