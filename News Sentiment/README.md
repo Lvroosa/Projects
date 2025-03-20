@@ -11,3 +11,4 @@ Update: The application is currently down. I will update with a new link for use
 
 https://github.com/user-attachments/assets/0b105433-b15c-439c-b6e5-063108c9d888
 
+[streamlit-personalproj-2025-03-20-15-03-16.webm](https://github.com/user-attachments/assets/1b76360e-bf5b-4f9e-806f-f0e38b1318be)
