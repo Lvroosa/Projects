@@ -8,7 +8,4 @@ I will continue to update the application, adding more features and improving th
 
 Update: The application is currently down. I will update with a new link for users to interact with soon! For now, you can find a video below demonstrating the app in action.
 
-
-https://github.com/user-attachments/assets/0b105433-b15c-439c-b6e5-063108c9d888
-
 [streamlit-personalproj-2025-03-20-15-03-16.webm](https://github.com/user-attachments/assets/1b76360e-bf5b-4f9e-806f-f0e38b1318be)
