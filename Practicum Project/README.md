@@ -1,4 +1,4 @@
-# Business Analytics Practicum Project
+# Business Analytics Practicum Project: Recommendations For BTS
 
 I included my project presentation and code to showcase our findings regarding BTS' data on Spotify
 
