@@ -6,3 +6,4 @@ You can find them here:
 
 - [News Sentiment](https://github.com/Lvroosa/Luke-Roosa-Projects/tree/main/News%20Sentiment#newssentiment)
 - [Spotify Application](https://github.com/Lvroosa/Luke-Roosa-Projects/tree/main/Spotify%20Application#spotify-application)
+- [Business Analytics Practicum Project: Spotify Dataset Analysis for BTS Recommendations](https://github.com/Lvroosa/Projects/blob/main/Practicum%20Project/README.md)
