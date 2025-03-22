@@ -3,7 +3,7 @@
 In this project, our goal was to inform BTS' label, HYBE, of their recent popularity from 2019-2021 and provide data-driven recommendations for tour locations, setlist
 strategies, budget allocations, and collaboration opportunities. 
 
-The Spotify dataset that my team used for our analysis can be found [here]: https://www.kaggle.com/datasets/dhruvildave/spotify-charts 
+The Spotify dataset that my team used for our analysis can be found [here](https://www.kaggle.com/datasets/dhruvildave/spotify-charts).
 
 You can find our presentation [here](https://docs.google.com/presentation/d/1LM8if6JyuBvRmr4JiWQEqpTvsapHo6berhHbBW5MarM/edit?usp=sharing). 
 
