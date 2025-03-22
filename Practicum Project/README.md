@@ -11,4 +11,4 @@ You can find our presentation here: https://docs.google.com/presentation/d/1LM8i
 
 Outside of our data cleaning and exploratory data analysis, we performed K-Means clustering to find the countries where collaboration was most important to make it onto the top 200.
 
-*Our tools used for data analysis were R and Tableau.*
+**Our tools used for data analysis were R and Tableau.**
