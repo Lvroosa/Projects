@@ -4,5 +4,4 @@ This was a small exercise to test out creating a custom dashboard application fo
 
 Below, you can find a video showcasing the application!
 
-https://github.com/user-attachments/assets/855f85f6-847d-425d-b981-2f3d28cef3e7
-
+[salesdashboard.webm](https://github.com/user-attachments/assets/969ba59a-7289-480b-91e4-ce23a95c84f8)
