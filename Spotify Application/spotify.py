@@ -3,31 +3,33 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import streamlit as st
 
-# Spotify API credentials
-client_id = '903b1d3d250f4a07a750df85da107472'
-client_secret = '9854f9664c6c4c86bcfa477cb5fa5c76'
+# Spotify API credentials. Insert your own API keys here
+client_id = ''
+client_secret = ''
 
-# Authenticate with Spotify using Client Credentials Flow
+# Authenticating with Spotify using Client Credentials Flow
 spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 st.title('Spotify Artist Metrics')
 
-# Search for artists. Allow the user to input the artist names separated by commas
+# Search for artists. Allows the user to input the artist names separated by commas
 artist_names = st.text_input('Enter the names of the artists you would like to search for (separated by commas):')
 
-# Add a button to search for the artists
+# Added a button to search for the artists
 search_button = st.button('Search')
 
 if not search_button:
     st.stop()
 
-# Split the input into individual artist names and limit to 5 artists
+# Split the input into individual artist names and limited it to 5 artists
 artist_names_list = [name.strip() for name in artist_names.split(',')][:5]
 
+#Added spotify logo to top left
 logo = 'https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png'
 st.logo(image=logo)
 
 st.write("")
 
+#Added cache
 @st.cache_data
 def get_artist_data(artist_name):
     return spotify.search(q='artist:' + artist_name, type='artist')
@@ -42,7 +44,7 @@ for artist_name in artist_names_list:
         st.write(f"No results found for {artist_name}")
         continue
 
-    # Choose the first artist from the search results
+    # Chooses the first artist from the search results
     artist = results['artists']['items'][0]
 
     icon = artist['images'][0]['url']
@@ -58,11 +60,11 @@ for artist_name in artist_names_list:
     else:
         col3.metric("Genre(s)", value=', '.join(artist['genres']))
 
-    # Display the artist's top tracks
+    # Displays the artist's top tracks
     st.subheader('Top Tracks')
     top_tracks = get_top_tracks(artist['id'])
 
-    # Create a DataFrame to display the top tracks in a table
+    # Creates a DataFrame to display the top tracks in a table
     top_tracks_data = {
         'Rank': list(range(1, len(top_tracks) + 1)),
         'Track Name': [track['name'] for track in top_tracks],
@@ -76,10 +78,10 @@ for artist_name in artist_names_list:
         st.write(f"Spotify URL: {artist['external_urls']['spotify']}")
         st.write(f"Spotify ID: {artist['id']}")
 
-    # Add a gap after each artist
+    # Adds a gap after each artist
     st.write("---")
 
-# Compare the popularity of the artists using the popularity metric and a bar chart
+# Compares the popularity of the artists using the popularity metric and a bar chart
 if len(artist_names_list) > 1:
     popularity_data = {
         'Artist': [str(artist_name) for artist_name in artist_names_list],
