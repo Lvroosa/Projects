@@ -8,8 +8,8 @@ import datetime
 from streamlit_tags import st_tags
 
 # Store API keys securely (Replace with your actual API keys)
-NEWS_API_KEY = "6cc5852e38fb4036b3b99afa53edcfb61"
-GEMINI_API_KEY = "AIzaSyCfor02YqYrYMsL016A9-PHXm6Whof3iGM"
+NEWS_API_KEY = ""
+GEMINI_API_KEY = ""
 
 # Configure Gemini API
 client = genai.Client(api_key=GEMINI_API_KEY)
